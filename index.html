@@ -45,6 +45,13 @@ a {
 <h1>Link para download</h1>
 <ul>
     <li><a href="livro/Codigo Limpo - Completo PT.pdf" download="Codigo Limpo - Completo PT.pdf" type="application/pdf">Baixar em PDF</a></li>
+<h1>imagem dinamica que se adapta com o tamanho do navegador</h1>
+
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="tamanho g">
+</picture>
 
 </ul>
 </body>
